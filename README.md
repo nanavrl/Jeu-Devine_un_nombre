@@ -1,9 +1,4 @@
 
-
-#--------------------------
-#  Jeux Devine un Nombre
-#--------------------------
-
 from random import * # Import de la biblioteque
 
 print ("Jeux : Deviner un Nombre entre 1 et 100, vous avez droit à 10 essais")
