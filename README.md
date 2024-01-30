@@ -1,14 +1,9 @@
-
 from random import * # Import de la biblioteque
-
 print ("Jeux : Deviner un Nombre entre 1 et 100, vous avez droit à 10 essais")
-
 Nbre_Tape = 0
 Nbre_Essais = 0
 Nbre_A_Deviner = randint(1, 100)
-
 while (Nbre_Tape != Nbre_A_Deviner and Nbre_Essais < 10) :
-
     Nbre_Tape = int( input("Taper un Nombre : "))
     Nbre_Essais = Nbre_Essais + 1
     
